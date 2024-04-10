@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_cien_tecnicas', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_normateca_unadm', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_cien_tecnicas
+ * @package   block_normateca_unadm
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['cien_tecnicas:addinstance'] = 'Add a new block one hundred teaching techniques';
-$string['cien_tecnicas:myaddinstance'] = 'Add a new block to Dashboard';
-$string['block_cien_tecnicas'] = 'block_cien_tecnicas';
+$string['normateca_unadm:addinstance'] = 'Add a new block one hundred teaching techniques';
+$string['normateca_unadm:myaddinstance'] = 'Add a new block to Dashboard';
+$string['block_normateca_unadm'] = 'block_normateca_unadm';
 $string['pluginname'] = '100 técnicas didácticas';
-$string['consult_cien_tecnicas'] = 'Consulta en 100 técnicas didácticas';
+$string['consult_normateca_unadm'] = 'Consulta en 100 técnicas didácticas';

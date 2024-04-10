@@ -1,6 +1,6 @@
 <?php
 require('../../config.php');
-require_once('classes/event/consult_cien_tecnicas.php');
+require_once('classes/event/consult_normateca_unadm.php');
 
 $mysqli = new mysqli('172.18.30.49' , 'consulta_tecnicas' , '-G20kf5!_XwsTw!.U', '100tecnicasdidacticas');
 $serverData = "";
@@ -73,7 +73,7 @@ if(isset( $_POST['filtro']) && isset( $_POST['busqueda'])) {
                 global $USER;
                 $filtros = ['resource_tecnica'=>'Nombre de técnica','resource_type_resource'=>'Nivel taxonómico básico','resource_no_tecnica'=>'Número de técnica','resource_keywords'=>'Palabras clave'];
                 $couserid = $_POST['courseid'];
-                $event =  \block_cien_tecnicas\event\consult_cien_tecnicas::create(array(
+                $event =  \block_normateca_unadm\event\consult_normateca_unadm::create(array(
                 'context' => context_course::instance($couserid),
                 'other' => array('filtro'=>$filtros[$filtro],'busqueda'=>$busqueda,
                 ),

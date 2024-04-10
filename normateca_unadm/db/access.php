@@ -1,6 +1,6 @@
 <?php
     $capabilities = array(
-    'block/cien_tecnicas:myaddinstance' => array(
+    'block/normateca_unadm:myaddinstance' => array(
         'riskbitmask' => RISK_PERSONAL,
         'captype' => 'read',
         'contextlevel' => CONTEXT_SYSTEM,
@@ -12,7 +12,7 @@
         ),
         'clonepermissionsfrom' => 'moodle/my:manageblocks'
     ),
-    'block/cien_tecnicas:addinstance' => array(
+    'block/normateca_unadm:addinstance' => array(
         'riskbitmask' => RISK_SPAM | RISK_XSS,
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,

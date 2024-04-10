@@ -1,7 +1,7 @@
 <?php
-class block_cien_tecnicas extends block_base {
+class block_normateca_unadm extends block_base {
     function init() {
-        $this->title = get_string('pluginname', 'block_cien_tecnicas');
+        $this->title = get_string('pluginname', 'block_normateca_unadm');
     }
     function get_content() {
         global $CFG,$COURSE;
@@ -145,7 +145,7 @@ class block_cien_tecnicas extends block_base {
         <script>
         let serverurlmoodle = "'.$CFG->wwwroot.'";
         let courseid = '.$COURSE->id.';
-        document.getElementById("icon-delete-cien-tecnicas").src = serverurlmoodle+"/blocks/cien_tecnicas/img/borrar.png";
+        document.getElementById("icon-delete-cien-tecnicas").src = serverurlmoodle+"/blocks/normateca_unadm/img/borrar.png";
         
         window.onload = ()=>{
             document.getElementById("filtro-avanzado").value = "buscar_por";
@@ -189,7 +189,7 @@ class block_cien_tecnicas extends block_base {
                  }
               };
               // Enviar la solicitud al servidor
-              xhttp.open("POST", serverurlmoodle+"/blocks/cien_tecnicas/wsConection.php", true);
+              xhttp.open("POST", serverurlmoodle+"/blocks/normateca_unadm/wsConection.php", true);
               var datos = "filtro=" + encodeURIComponent(filtroAvanzadoConditional)+"&busqueda=" + encodeURIComponent(filtroAvanzadoSearch)+ "&courseid="+encodeURIComponent(courseid);
               xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
               xhttp.send(datos);
