@@ -1,0 +1,6 @@
+[22-May-2023 17:59:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
+[22-May-2023 17:59:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
+[22-May-2023 18:46:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
+[22-May-2023 18:50:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
+[22-May-2023 18:51:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
+[22-May-2023 19:05:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /appser/moodle_educont_2022/local/normateca/load.php on line 9
